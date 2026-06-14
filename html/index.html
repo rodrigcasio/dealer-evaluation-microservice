@@ -6,8 +6,8 @@
     }
   </style>
   <script>
-    let produrl = "http://localhost:5000/"
-    let dealerurl = "http://localhost:8080/"
+    let produrl = "https://prodlist.2b2idtb3uya0.us-south.codeengine.appdomain.cloud/"
+    let dealerurl = "https://dealerdetails.2b2idtb3uya0.us-south.codeengine.appdomain.cloud/"
 
     axios.get(produrl + "products")
       .then(res => {
@@ -133,3 +133,4 @@
     <div style='margin:6mm;font-size: large;' id='pricing'></div>
   </h1>
 </html>
+
